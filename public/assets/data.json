@@ -1,39 +1,39 @@
 {
-    "scrum_daddy_team": [
-        {
-            "navn": "Stefanie Jane Heinemann",
-            "mail": "sthe2@videndjurs.net",
-            "role": "Team leader / Product manager",
-            "about": "",
-            "image": ""
-        },
-        {
-            "navn": "Martin Kannegaard Nielsen",
-            "mail": "mani14@videndjurs.net",
-            "role": "Project manager / Developer",
-            "about": "",
-            "image": ""
-        },
-        {
-            "navn": "Andreas Grønbech Christensen",
-            "mail": "anch6@videndjurs.net",
-            "role": "Developer",
-            "about": "",
-            "image": ""
-        },
-        {
-            "navn": "Elias Johnsen",
-            "mail": "eljo1@videndjurs.net",
-            "role": "Developer / SoMe manager",
-            "about": "",
-            "image": ""
-        },
-        {
-            "navn": "Alexander Grønbech Christensen",
-            "mail": "alch1@videndjurs.net",
-            "role": "Developer",
-            "about": "",
-            "image": ""
-        }
-    ]
+  "scrum_daddy_team": [
+    {
+      "navn": "Stefanie Jane Heinemann",
+      "mail": "sthe2@videndjurs.net",
+      "role": "Team leader / Product manager",
+      "about": "",
+      "image": ""
+    },
+    {
+      "navn": "Martin Kannegaard Nielsen",
+      "mail": "mani14@videndjurs.net",
+      "role": "Project manager / Developer",
+      "about": "",
+      "image": ""
+    },
+    {
+      "navn": "Andreas Grønbech Christensen",
+      "mail": "anch6@videndjurs.net",
+      "role": "Developer",
+      "about": "",
+      "image": ""
+    },
+    {
+      "navn": "Elias Johnsen",
+      "mail": "eljo1@videndjurs.net",
+      "role": "Developer / SoMe manager",
+      "about": "",
+      "image": ""
+    },
+    {
+      "navn": "Alexander Grønbech Christensen",
+      "mail": "alch1@videndjurs.net",
+      "role": "Developer",
+      "about": "",
+      "image": ""
+    }
+  ]
 }
