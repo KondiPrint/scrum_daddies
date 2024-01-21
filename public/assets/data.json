@@ -1,6 +1,7 @@
 {
   "scrum_daddy_team": [
     {
+      "id": "1",
       "navn": "Stefanie Jane Heinemann",
       "mail": "sthe2@videndjurs.net",
       "role": "Team leader / Product manager",
@@ -8,6 +9,7 @@
       "image": ""
     },
     {
+      "id": "2",
       "navn": "Martin Kannegaard Nielsen",
       "mail": "mani14@videndjurs.net",
       "role": "Project manager / Developer",
@@ -15,6 +17,7 @@
       "image": ""
     },
     {
+      "id": "3",
       "navn": "Andreas Grønbech Christensen",
       "mail": "anch6@videndjurs.net",
       "role": "Developer",
@@ -22,6 +25,7 @@
       "image": ""
     },
     {
+      "id": "4",
       "navn": "Elias Johnsen",
       "mail": "eljo1@videndjurs.net",
       "role": "Developer / SoMe manager",
@@ -29,6 +33,7 @@
       "image": ""
     },
     {
+      "id": "5",
       "navn": "Alexander Grønbech Christensen",
       "mail": "alch1@videndjurs.net",
       "role": "Developer",
