@@ -7,11 +7,11 @@ export default function Home() {
       <section className='h-1/2'>
         <Carousel />
       </section>
-      <article className='text-center [&>div>div>h2]:justify-center mt-96 '>
+      <article className='text-center [&>div>div>h2]:mx-auto mt-96 '>
         {data &&
           data?.scrum_daddy_team.map((info, index) => (
             <div
-              className='card lg:card-side bg-base-100 lg:even:flex-row-reverse lg:rounded-none my-44 shadow-2xl  w-3/4 mx-auto border-4 [&:nth-child(2)]:border-green-200  [&:nth-child(1)]:border-pink-200  [&:nth-child(3)]:border-red-200 [&:nth-child(4)]:border-purple-200  [&:nth-child(5)]:border-blue-200'
+              className='card lg:card-side bg-base-100 lg:even:flex-row-reverse lg:rounded-none my-44 shadow-2xl w-3/4 mx-auto border-4 [&>div>h2]:border-b-2 [&>div>h2]:w-fit [&:nth-child(2)]:border-green-200  [&:nth-child(1)]:border-pink-200  [&:nth-child(3)]:border-red-200 [&:nth-child(4)]:border-purple-200  [&:nth-child(5)]:border-blue-200 [&:nth-child(1)>div>h2]:border-pink-200 [&:nth-child(2)>div>h2]:border-green-200 [&:nth-child(3)>div>h2]:border-red-200 [&:nth-child(4)>div>h2]:border-purple-200 [&:nth-child(5)>div>h2]:border-blue-200'
               key={info.id}
               id={info.id}>
               <figure className=''>
