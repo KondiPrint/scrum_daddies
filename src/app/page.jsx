@@ -18,20 +18,20 @@ export default function Home() {
               key={info.id}
               id={info.id}>
               <figure className=''>
-                <img className='' src='https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg' alt='Album' />
+                <img className='' src={info.image} alt='Album' />
               </figure>
 
               <div className='card-body my-auto'>
-                <h2 className='card-title'>{info.navn}</h2>
+                <h2 className='card-title my-5'>{info.navn}</h2>
                 <p className='font-roles uppercase font-semibold'>{info.role}</p>
-
                 <p className='italic text-sm'>{info.mail}</p>
+                <p className='text-xl font-quote italic mt-10'>"{info.quote}"</p>
               </div>
             </div>
           ))}
       </article>
 
-      <section className=''>
+      <aside className='py-10'>
         <p className='w-full border-b-black border-b-2 mb-3 uppercase'>our colors</p>
         <div className='flex gap-4 px-2'>
           <div className='w-full h-12 bg-purple-200'></div>
@@ -40,7 +40,7 @@ export default function Home() {
           <div className='w-full h-12 bg-pink-200'></div>
           <div className='w-full h-12 bg-cyan-200'></div>
         </div>
-      </section>
+      </aside>
     </>
   );
 }
