@@ -13,10 +13,36 @@ export default class CenterMode extends Component {
       centerPadding: '50px',
       slidesToShow: 3,
       speed: 500,
+      autoplaySpeed: 3500,
       autoplay: true,
       dots: true,
       pauseOnHover: true,
-      arrows: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
     return (
       <article className='text-center [&>div>div>h2]:justify-center'>
@@ -25,7 +51,7 @@ export default class CenterMode extends Component {
             data?.scrum_daddy_team.map((info, index) => (
               <div className='card w-96 bg-base-100 shadow-inner border scale-95' key={index}>
                 <figure className='px-10 pt-10'>
-                  <img src='https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg' alt='Shoes' className='rounded-xl' />
+                  <img src='https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg' alt='' className='rounded-xl' />
                 </figure>
                 <div className='card-body items-center text-center gap-5'>
                   <h2 className='card-title'>{info.navn}</h2>
