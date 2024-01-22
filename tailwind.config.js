@@ -5,6 +5,13 @@ module.exports = {
     daisyui: {
       themes: ['light', 'dark'],
     },
+    fontFamily: {
+      sans: ['ui-sans-serif', 'system-ui'],
+      serif: ['ui-serif', 'Georgia'],
+      mono: ['ui-monospace', 'SFMono-Regular'],
+      roles: ['Kanit'],
+      quote: ['Mynerve'],
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -15,7 +22,7 @@ module.exports = {
   plugins: [require('daisyui')],
   daisyui: {
     themes: false, // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
-    darkTheme: '', // name of one of the included themes for dark mode
+    darkTheme: 'light', // name of one of the included themes for dark mode
     base: true, // applies background color and foreground color for root element by default
     styled: true, // include daisyUI colors and design decisions for all components
     utils: true, // adds responsive and modifier utility classes
