@@ -5,7 +5,9 @@ export default function Header() {
   return (
     <header id='top' className='bg-neutral relative'>
       <nav className='navbar'>
-        <div className='navbar-start'></div>
+        <div className='navbar-start h-20'>
+          <img className=' rounded-3xl scale-50 w-36' src='../../../assets/images/logo1.png' alt='' />
+        </div>
         <div className='navbar-center'>I'm a header</div>
         <div className='navbar-end'></div>
       </nav>
