@@ -1,12 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import data from '../../public/assets/data.json';
 import Carousel from './components/slider';
 export default function Home() {
   return (
     <>
       <h1 className='font-bold text-5xl text-center my-20'>SCRUM-Daddies</h1>
+
       <section className='h-1/2'>
         <Carousel />
       </section>
+
       <article className='text-center [&>div>div>h2]:mx-auto mt-96 '>
         {data &&
           data?.scrum_daddy_team.map((info, index) => (
@@ -17,15 +20,27 @@ export default function Home() {
               <figure className=''>
                 <img className='' src='https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg' alt='Album' />
               </figure>
+
               <div className='card-body my-auto'>
-                <h2 className='card-title mb-5'>{info.navn}</h2>
+                <h2 className='card-title'>{info.navn}</h2>
                 <p className='font-roles uppercase font-semibold'>{info.role}</p>
+
                 <p className='italic text-sm'>{info.mail}</p>
-                <p className='font-quote mt-10 italic text-lg'>"{info.quote}"</p>
               </div>
             </div>
           ))}
       </article>
+
+      <section className=''>
+        <p className='w-full border-b-black border-b-2 mb-3 uppercase'>our colors</p>
+        <div className='flex gap-4 px-2'>
+          <div className='w-full h-12 bg-purple-200'></div>
+          <div className='w-full h-12 bg-red-400'></div>
+          <div className='w-full h-12 bg-green-200'></div>
+          <div className='w-full h-12 bg-pink-200'></div>
+          <div className='w-full h-12 bg-cyan-200'></div>
+        </div>
+      </section>
     </>
   );
 }
