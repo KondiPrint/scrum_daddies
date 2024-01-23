@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className='footer items-center p-4 bg-neutral text-neutral-content'>
       <aside className='items-center grid-flow-col'>
-        <img className=' rounded-3xl scale-50 w-36' src='../../../assets/images/logo1.png' alt='' />
+        <img className='w-16' src='../../../assets/images/scrummy_white.png' alt='' />
         <p>Copyright © 2024 - Alexander, Andreas, Elias, Stefanie & Martin</p>
       </aside>
       <nav className='grid-flow-col gap-4 md:place-self-center md:justify-self-end'>
