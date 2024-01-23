@@ -7,7 +7,8 @@
       "role": "Team leader / Product manager",
       "quote": "Ej, jeg dør!",
       "about": "",
-      "image": "../../assets/images/MartinCT.png"
+      "image": "../../assets/images/StefCT.png",
+      "info_image": "../../assets/images/stef_cropped.jpg"
     },
     {
       "id": "2",
@@ -16,7 +17,8 @@
       "role": "Project manager / Developer",
       "quote": "Jeg er så fattig, jeg lever på dunsten af mine egne prutter",
       "about": "",
-      "image": "../../assets/images/MartinCT.png"
+      "image": "../../assets/images/MartinCT.png",
+      "info_image": "../../assets/images/Martin_cropped.jpg"
     },
     {
       "id": "3",
@@ -25,7 +27,8 @@
       "role": "Developer",
       "quote": "Overvej at kalde bro en bro, når det ikke engang er en bro",
       "about": "",
-      "image": "../../assets/images/MartinCT.png"
+      "image": "../../assets/images/AndreasCT.png",
+      "info_image": "../../assets/images/andreas_cropped.jpg"
     },
     {
       "id": "4",
@@ -34,7 +37,8 @@
       "role": "Developer / SoMe manager",
       "quote": "Stop vold eller jeg smadrer jer",
       "about": "",
-      "image": "../../assets/images/EliasCT.png"
+      "image": "../../assets/images/EliasCT.png",
+      "info_image": "../../assets/images/elias__cropped.jpg"
     },
     {
       "id": "5",
@@ -43,7 +47,8 @@
       "role": "Developer",
       "quote": "Sucks to suck",
       "about": "",
-      "image": "../../assets/images/MartinCT.png"
+      "image": "../../assets/images/AlexCT.png",
+      "info_image": "../../assets/images/alex_cropped.jpg"
     }
   ]
 }

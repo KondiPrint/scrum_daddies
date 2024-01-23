@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import data from '../../../public/assets/data.json';
-import styles from "./slider.css";
+import styles from './slider.css';
 
 export default class CenterMode extends Component {
   render() {
@@ -50,14 +50,14 @@ export default class CenterMode extends Component {
         <Slider {...settings}>
           {data &&
             data?.scrum_daddy_team.map((info, index) => (
-              <div className='card w-96 bg-base-100 shadow-inner border scale-95' key={info.id}>
+              <div className={`card w-96 bg-base-100 shadow-inner border scale-95 [&:nth-child(${index + 1})]`} key={info.id}>
                 <figure className='px-10 pt-10'>
                   <img src={info.image} alt='Cartoon image' className='rounded-xl' />
                 </figure>
                 <div className='card-body items-center text-center gap-5'>
                   <h2 className='card-title'>{info.navn}</h2>
                   <div className='card-actions'>
-                    <a href={`#${info.id}`} className='btn btn-info'>
+                    <a href={`#${info.id}`} className='btn btn-outline btn-info btn-wide'>
                       Læs mere
                     </a>
                   </div>

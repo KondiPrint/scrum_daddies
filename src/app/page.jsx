@@ -18,7 +18,7 @@ export default function Home() {
               key={info.id}
               id={info.id}>
               <figure className=''>
-                <img className='' src={info.image} alt='Album' />
+                <img className='' src={info.info_image} alt='Album' />
               </figure>
 
               <div className='card-body my-auto'>
