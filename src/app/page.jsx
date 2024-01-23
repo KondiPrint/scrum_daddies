@@ -6,15 +6,19 @@ export default function Home() {
     <>
       <h1 className='font-bold text-5xl text-center mt-20 mb-10'>SCRUM-Daddies</h1>
 
-      <div className='mb-36'>
-        <img className='' src='../../../assets/images/groupPIC.png' alt='Gruppe billed' />
+      <div>
+        <img src='../../../assets/images/groupPIC.png' alt='Gruppe billed' />
       </div>
+
+      <div className='divider divider-info my-36'>Vores slider</div>
 
       <section className='h-1/2'>
         <Carousel />
       </section>
 
-      <article className='text-center [&>div>div>h2]:mx-auto mt-96 '>
+      <div className='divider divider-info my-36'>Lidt om os</div>
+
+      <article className='text-center [&>div>div>h2]:mx-auto'>
         {data &&
           data?.scrum_daddy_team.map((info, index) => (
             <div
@@ -35,7 +39,7 @@ export default function Home() {
           ))}
       </article>
 
-      <aside className='py-10'>
+      <aside className='my-10'>
         <p className='w-full border-b-black border-b-2 mb-3 uppercase'>our colors</p>
         <div className='flex gap-4 px-2'>
           <div className='w-full h-12 bg-purple-200'></div>
