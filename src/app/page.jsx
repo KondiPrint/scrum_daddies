@@ -4,10 +4,10 @@ import Carousel from './components/slider';
 export default function Home() {
   return (
     <>
-      <h1 className='font-bold text-5xl text-center mt-20 mb-10'>SCRUM-Daddies</h1>
+      <h1 className='font-bold text-5xl text-center my-10'>SCRUM-Daddies</h1>
 
       <div>
-        <img src='../../../assets/images/groupPIC.png' alt='Gruppe billed' />
+        <img className='rounded-badge' src='../../../assets/images/groupPIC.png' alt='Gruppe billed' />
       </div>
 
       <div className='divider divider-info my-36'>Vores slider</div>
