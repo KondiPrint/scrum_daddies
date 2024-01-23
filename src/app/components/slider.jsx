@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import data from '../../../public/assets/data.json';
+import styles from "./slider.css";
 
 export default class CenterMode extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class CenterMode extends Component {
       centerMode: true,
       centerPadding: '50px',
       slidesToShow: 3,
-      speed: 1500,
+      speed: 800,
       autoplay: true,
       dots: true,
       pauseOnHover: true,
@@ -45,7 +46,7 @@ export default class CenterMode extends Component {
       ],
     };
     return (
-      <article className='text-center [&>div>div>h2]:justify-center'>
+      <article id='styles.slick-slide' className='text-center [&>div>div>h2]:justify-center'>
         <Slider {...settings}>
           {data &&
             data?.scrum_daddy_team.map((info, index) => (
