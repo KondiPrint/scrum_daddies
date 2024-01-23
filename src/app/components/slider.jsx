@@ -18,6 +18,7 @@ export default class CenterMode extends Component {
       autoplay: true,
       dots: true,
       pauseOnHover: true,
+      arrows: false,
       responsive: [
         {
           breakpoint: 1024,
